@@ -36,7 +36,6 @@ export default function RegisterScreen() {
       return;
     }
 
-    // Lógica de registro aqui (como no exemplo anterior)
     router.push('/auth');
   };
 
