@@ -2,11 +2,11 @@ import React from 'react';
 import { View, Text, Image, StyleSheet, Dimensions, TouchableOpacity } from 'react-native';
 
 interface ProductCardProps {
-  id: string; // Adicione o id
+  id: string;
   name: string;
   price: number;
   imageUrl: string;
-  onAddToCart: () => void; // Adicione a prop onAddToCart
+  onAddToCart: () => void; 
 }
 
 const { width } = Dimensions.get('window');
