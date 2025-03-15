@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, SafeAreaView, ScrollView, TouchableOpacity } from 'react-native';
-import { useCart } from '../../context/CartContext'; // Importe o useCart
+import { useCart } from '../../context/CartContext'; 
 
 export default function CartScreen() {
   const { cartItems, removeFromCart } = useCart();
